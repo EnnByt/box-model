@@ -1,0 +1,178 @@
+*{
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+.main-header {
+  width: 100%;
+  height: 450px;
+  background: #333
+  url("https://static.pexels.com/photos/248515/pexels-photo-248515.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  opacity: 0.8;
+}
+
+.content-wrapper {
+  width: 100%;
+  max-width: 1100px;
+  min-width: 440px;
+  margin: 0 auto;
+  /* border: 3px solid red; */
+  height: 450px;
+  text-align: center;
+  padding-top: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+  color: white;
+}
+
+li {
+  width: 30%;
+  height: 100%;
+  /* border: 3px solid green; */
+  display: inline-block;
+  min-width: 170px;
+}
+
+img {
+  width: 272px;
+  height: 181px;
+}
+
+.bg-image {
+  position: absolute;
+  width: 100%;
+  height: 450px;
+  opacity: 0.8;
+}
+
+.main-info {
+  width: 100%;
+  height: 250px;
+  margin: 0 auto;
+  /* border: 3px solid blueviolet; */
+  text-align: center;
+  background-color: #EAEAEA
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+  padding: 0px 0px 0px;
+  margin: 0px;
+}
+
+h2{
+  padding: 24px 0px;
+  margin: 0px;
+}
+
+.cards-list {
+  list-style: none;
+  color: black;
+  padding: 35px  17px 17px;
+  /* border: 3px solid blue; */
+  width: 100%;
+  text-align: center;
+  padding: 10px 90px 10px;
+  margin: 0px;
+  background: #333
+}
+
+.style-card 
+{
+  padding: 26px;
+  font-size: 1.2em;
+}
+
+.kolon {
+  background: white;
+  width: auto;
+  height: auto;
+  text-align: center;
+  font-size: 1.2em;
+  padding: 26px;
+}
+
+.style-list {
+  padding:0px 30px 0px;
+  margin: 10px 10px 30px;
+}
+
+.kontent-white {
+  width: 100%;
+  height: 250px;
+  /* border: 3px solid gray; */
+  background: #EAEAEA;
+  text-align: center;
+  font-size: 1.2em;
+  padding: 0px 100px 0px;
+  margin: 0px;
+  
+}
+
+.cards-end {
+  float: left;
+  width: 50%;
+  height: 312px;
+  margin: 0px;
+  /* border: 3px solid #73AD21;   */
+  background: #2690D4;
+  text-align: center;
+  color: white;
+  padding:0px 40px 0px;
+  font-size: 1.2em;
+}
+
+.cards-left {
+  float: left;
+  width: 50%;
+  height: 312px;
+  margin: 0px;
+  /* border: 3px solid #73AD21;   */
+  background: #333333;
+  text-align: center;
+  color: white;
+  padding:0px 40px 0px;
+  font-size: 1.2em;
+}
+
+.class-p {
+  padding:10px 40px 0px;
+}
+
+.main-footer {
+  float: left;
+  width: 100%;
+  height: 96px;
+  /* border: 3px solid red; */
+  text-align: center;
+  font-size: 1.2em;
+  padding: 20px 100px 10px;
+  background: black;
+  color: white;
+  margin: 0px;
+}
+
+.footer {
+  float: left;
+  width: 50%;
+  margin: 0px;
+  /* border: 3px solid #73AD21;   */
+  text-align: center;
+  padding: 0px 40px 0px;
+  font-size: 1.2em;
+}
+
+.footer-left {
+  float: left;
+  width: 50%;
+  margin: 0px;
+  /* border: 3px solid #73AD21;   */
+  text-align: center;
+  padding:0px 40px 0px;
+  font-size: 1.2em;
+}
